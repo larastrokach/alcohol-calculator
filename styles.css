@@ -1,0 +1,117 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1586375103528-8bc247aa8110?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80");
+	background-color: rgba(94, 97, 93, 0.9);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#container {
+	background-color: rgba(117, 89, 182, 0.859);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 600px;
+	height: 900px;
+	color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	margin: 5px;
+	padding: 10px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #f6dbf0;
+	align-self: center;
+	margin-bottom: 5px;
+}
+
+input {
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	margin: 5px;
+}
+
+#gender {
+	font-size: 20px;
+	color: black;
+}
+
+#btn {
+	background-color: rgb(23, 22, 23);
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	border: 1px solid white;
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#totalAmount {
+
+	font-family: 'Roboto', sans-serif;
+	background-color: #60a3e1;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+#timeDrive,
+#timeDriveMinutes,
+#bac,
+#total {
+	color: black;
+}
+
+@media all and (max-width:800px) {
+	#container {
+		background-color: rgba(117, 89, 182, 0.559);
+		width: 500px;
+		height: 1000px;
+	}
+
+	#totalAmount {
+		background-color: #607ce1;
+		margin-top: 60px;
+	}
+}
+
+@media all and (max-width:500px) {
+
+	h1 {
+		font-size: 20px;
+	}
+
+	h4,
+	span {
+		font-size: 15px;
+		margin: 5px;
+	}
+
+	#container {
+		background-color: rgba(117, 89, 182, 0.559);
+		width: 350px;
+		height: 800px;
+		margin-left: 5px;
+	}
+
+	#btn {
+		font-size: 15px;
+	}
+
+	#totalAmount {
+		background-color: #607ce1;
+		margin-top: 15px;
+		font-size: 15px;
+	}
+
+	#gender {
+		font-size: 15px;
+	}
+}

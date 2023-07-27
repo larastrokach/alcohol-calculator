@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <title>Promille Calculator</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <div id="container">
+         <h1>ALCOHOL CALCULATOR</h1>
+         <form>
+            <h4 id="chooseGender"> Gender:</h4>
+            <span>
+               <select  id="gender">
+                  <option value="0.70" > Male 👨</option>
+                  <option value="0.60"selected> Female 👩</option>
+               </select>
+            </span>
+            <h4>What is your weight?</h4>
+            <span>⚖ <input type="text" placeholder="kg"  id="weight"></span>
+            <h4>How many drinks have you consumed?</h4>
+            <span >Beer 🍺
+            <input id="beer" type="text" placeholder="ml"  value=""></span>
+            <span >Wine 🍷
+            <input id="wine" type="text"  placeholder="ml"  value=""></span>
+            <span>Shot 🥃
+            <input id="shot" type="text"  placeholder="ml" value=""></span>
+            <h4>How many hours ago was your last drink?</h4>
+            <span>Hours 🕐
+            <input id="time" type="text"placeholder="0.0" value=""></span>
+            <button id="btn">Calculate</button>
+         </form>
+         <div id="totalAmount">
+            <p> Amount of alcohol in the blood: </p>
+            <span id="total" > </span>
+            <span>   ‰ promille </span>
+            <p> Your BAC is: </p>
+            <span id="bac" ></span> 
+            <span>   %</span>
+            <p> You can drive in:~ </p>
+            <span id="timeDrive" ></span>
+            <span>   hours</span>
+            <span id="timeDriveMinutes" ></span>
+            <span>   minutes</span>
+         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="index.js" ></script>
+   </body>
+</html>
