@@ -9,8 +9,16 @@ This is an alcohol calculator web application built with HTML, CSS, and JavaScri
 - Consider factors such as weight, gender, and time of consumption to provide a more accurate BAC estimate.
 
 
-## Getting Started
+## Instalation
+
+1. Clone the repository: git clone 
+2. Navigate to the project directly: cd toDoList
+3. Open the index.html file in a web browser to view the web application 
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 
 
-https://github.com/larastrokach/alcohol-calculator.git
+
