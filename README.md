@@ -11,8 +11,8 @@ This is an alcohol calculator web application built with HTML, CSS, and JavaScri
 
 ## Instalation
 
-1. Clone the repository: git clone 
-2. Navigate to the project directly: cd toDoList
+1. Clone the repository: git clone https://github.com/larastrokach/alcohol-calculator.git
+2. Navigate to the project directly: cd alcohol-calculator
 3. Open the index.html file in a web browser to view the web application 
 
 ## Contributing
